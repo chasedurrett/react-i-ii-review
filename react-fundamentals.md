@@ -4,15 +4,27 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+  A JS framework for building single-page web apps that incorporates a virtual DOM and JSX. 
+
 2.  What is create-react-app?
+
+Facebook's set up for compiling the necessary components to build a react app. 
 
 3.  What is Component Based Architecture?
 
+Reusable sections of code that allow for minimal repetition. 
+
 4.  What is JSX?
+
+Javascript that acts as html and is run through a compiler provided by react. 
 
 5.  What is the virtual DOM?
 
+a virtual copy of the DOM. is synced in memory with the DOM that allows only changed components to have to re-render to save load times.
+
 6.  What is unidirectional (one-way) data flow?
+
+Data flows from top to bottom, parent to child--NOT from child to parent 
 
 ### Understand
 
@@ -20,12 +32,18 @@ Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
 
+sets up the environment and components to run a react application, also sets destination for react app
+
 8.  Summarize the steps for forking and cloning a repo with an existing React app. How does this process differ from the process of creating a new React app on your laptop?
+
+fork, git clone url, npm i, npm start 
 
 9.  Explain what this code does:
 
 ```jsx
 import React from "react";
+
+the classname is adjusting based on the prop that is passed down from the parent component 
 
 const Mentor = props => (
   <div className="mentor-container">

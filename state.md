@@ -4,15 +4,23 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+data stored in the react component 
+
 2.  Where do you set initial state?
 
+stored in the constructor function, this.state
+
 3.  What method do you use to update state?
+
+this.setstate {}
 
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group
 
 4.  Explain what's happening in this component.
+
+
 
 ```jsx
 import React, { Component } from "react";
